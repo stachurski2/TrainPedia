@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3858FCCD240E689400F65B94 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCCC240E689400F65B94 /* Train.swift */; };
+		3858FCCF240E6CB700F65B94 /* TrainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCCE240E6CB700F65B94 /* TrainsView.swift */; };
+		3858FCD1240EA09B00F65B94 /* TrainProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCD0240EA09B00F65B94 /* TrainProvider.swift */; };
 		38A968D724057D9F00E2E3D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968D624057D9F00E2E3D2 /* AppDelegate.swift */; };
 		38A968D924057D9F00E2E3D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968D824057D9F00E2E3D2 /* SceneDelegate.swift */; };
-		38A968DB24057D9F00E2E3D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968DA24057D9F00E2E3D2 /* ContentView.swift */; };
+		38A968DB24057D9F00E2E3D2 /*  OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968DA24057D9F00E2E3D2 /*  OnboardingView.swift */; };
 		38A968DD24057DA200E2E3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A968DC24057DA200E2E3D2 /* Assets.xcassets */; };
 		38A968E024057DA200E2E3D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A968DF24057DA200E2E3D2 /* Preview Assets.xcassets */; };
 		38A968E324057DA200E2E3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A968E124057DA200E2E3D2 /* LaunchScreen.storyboard */; };
 		38A968EE24057DA200E2E3D2 /* swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968ED24057DA200E2E3D2 /* swiftUITests.swift */; };
 		38A968F924057DA200E2E3D2 /* swiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A968F824057DA200E2E3D2 /* swiftUIUITests.swift */; };
+		38C35C86240EB3D800971896 /* TrainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C35C85240EB3D800971896 /* TrainRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +39,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38A968D324057D9F00E2E3D2 /* swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3858FCCC240E689400F65B94 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
+		3858FCCE240E6CB700F65B94 /* TrainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsView.swift; sourceTree = "<group>"; };
+		3858FCD0240EA09B00F65B94 /* TrainProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainProvider.swift; sourceTree = "<group>"; };
+		38A968D324057D9F00E2E3D2 /* TrainPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A968D624057D9F00E2E3D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38A968D824057D9F00E2E3D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38A968DA24057D9F00E2E3D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38A968DA24057D9F00E2E3D2 /*  OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " OnboardingView.swift"; sourceTree = "<group>"; };
 		38A968DC24057DA200E2E3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A968DF24057DA200E2E3D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38A968E224057DA200E2E3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A968E424057DA200E2E3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38A968E924057DA200E2E3D2 /* swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A968E924057DA200E2E3D2 /* myAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A968ED24057DA200E2E3D2 /* swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUITests.swift; sourceTree = "<group>"; };
 		38A968EF24057DA200E2E3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38A968F424057DA200E2E3D2 /* swiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A968F424057DA200E2E3D2 /* myAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A968F824057DA200E2E3D2 /* swiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIUITests.swift; sourceTree = "<group>"; };
 		38A968FA24057DA200E2E3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C35C85240EB3D800971896 /* TrainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3858FCCB240E687000F65B94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3858FCCC240E689400F65B94 /* Train.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		38A968CA24057D9F00E2E3D2 = {
 			isa = PBXGroup;
 			children = (
@@ -89,9 +105,9 @@
 		38A968D424057D9F00E2E3D2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				38A968D324057D9F00E2E3D2 /* swiftUI.app */,
-				38A968E924057DA200E2E3D2 /* swiftUITests.xctest */,
-				38A968F424057DA200E2E3D2 /* swiftUIUITests.xctest */,
+				38A968D324057D9F00E2E3D2 /* TrainPedia.app */,
+				38A968E924057DA200E2E3D2 /* myAppTests.xctest */,
+				38A968F424057DA200E2E3D2 /* myAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +117,9 @@
 			children = (
 				38A968D624057D9F00E2E3D2 /* AppDelegate.swift */,
 				38A968D824057D9F00E2E3D2 /* SceneDelegate.swift */,
-				38A968DA24057D9F00E2E3D2 /* ContentView.swift */,
+				3858FCD0240EA09B00F65B94 /* TrainProvider.swift */,
+				38C35C82240EADB800971896 /* Modules */,
+				3858FCCB240E687000F65B94 /* Model */,
 				38A968DC24057DA200E2E3D2 /* Assets.xcassets */,
 				38A968E124057DA200E2E3D2 /* LaunchScreen.storyboard */,
 				38A968E424057DA200E2E3D2 /* Info.plist */,
@@ -136,12 +154,38 @@
 			path = swiftUIUITests;
 			sourceTree = "<group>";
 		};
+		38C35C82240EADB800971896 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				38C35C84240EADDB00971896 /* Onboarding */,
+				38C35C83240EADC700971896 /* Trains */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		38C35C83240EADC700971896 /* Trains */ = {
+			isa = PBXGroup;
+			children = (
+				3858FCCE240E6CB700F65B94 /* TrainsView.swift */,
+				38C35C85240EB3D800971896 /* TrainRow.swift */,
+			);
+			path = Trains;
+			sourceTree = "<group>";
+		};
+		38C35C84240EADDB00971896 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				38A968DA24057D9F00E2E3D2 /*  OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		38A968D224057D9F00E2E3D2 /* swiftUI */ = {
+		38A968D224057D9F00E2E3D2 /* myApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38A968FD24057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUI" */;
+			buildConfigurationList = 38A968FD24057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myApp" */;
 			buildPhases = (
 				38A968CF24057D9F00E2E3D2 /* Sources */,
 				38A968D024057D9F00E2E3D2 /* Frameworks */,
@@ -151,14 +195,14 @@
 			);
 			dependencies = (
 			);
-			name = swiftUI;
+			name = myApp;
 			productName = swiftUI;
-			productReference = 38A968D324057D9F00E2E3D2 /* swiftUI.app */;
+			productReference = 38A968D324057D9F00E2E3D2 /* TrainPedia.app */;
 			productType = "com.apple.product-type.application";
 		};
-		38A968E824057DA200E2E3D2 /* swiftUITests */ = {
+		38A968E824057DA200E2E3D2 /* myAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38A9690024057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUITests" */;
+			buildConfigurationList = 38A9690024057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myAppTests" */;
 			buildPhases = (
 				38A968E524057DA200E2E3D2 /* Sources */,
 				38A968E624057DA200E2E3D2 /* Frameworks */,
@@ -169,14 +213,14 @@
 			dependencies = (
 				38A968EB24057DA200E2E3D2 /* PBXTargetDependency */,
 			);
-			name = swiftUITests;
+			name = myAppTests;
 			productName = swiftUITests;
-			productReference = 38A968E924057DA200E2E3D2 /* swiftUITests.xctest */;
+			productReference = 38A968E924057DA200E2E3D2 /* myAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		38A968F324057DA200E2E3D2 /* swiftUIUITests */ = {
+		38A968F324057DA200E2E3D2 /* myAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 38A9690324057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUIUITests" */;
+			buildConfigurationList = 38A9690324057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myAppUITests" */;
 			buildPhases = (
 				38A968F024057DA200E2E3D2 /* Sources */,
 				38A968F124057DA200E2E3D2 /* Frameworks */,
@@ -187,9 +231,9 @@
 			dependencies = (
 				38A968F624057DA200E2E3D2 /* PBXTargetDependency */,
 			);
-			name = swiftUIUITests;
+			name = myAppUITests;
 			productName = swiftUIUITests;
-			productReference = 38A968F424057DA200E2E3D2 /* swiftUIUITests.xctest */;
+			productReference = 38A968F424057DA200E2E3D2 /* myAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 38A968CE24057D9F00E2E3D2 /* Build configuration list for PBXProject "swiftUI" */;
+			buildConfigurationList = 38A968CE24057D9F00E2E3D2 /* Build configuration list for PBXProject "myApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +272,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				38A968D224057D9F00E2E3D2 /* swiftUI */,
-				38A968E824057DA200E2E3D2 /* swiftUITests */,
-				38A968F324057DA200E2E3D2 /* swiftUIUITests */,
+				38A968D224057D9F00E2E3D2 /* myApp */,
+				38A968E824057DA200E2E3D2 /* myAppTests */,
+				38A968F324057DA200E2E3D2 /* myAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,9 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3858FCCF240E6CB700F65B94 /* TrainsView.swift in Sources */,
+				3858FCD1240EA09B00F65B94 /* TrainProvider.swift in Sources */,
+				38C35C86240EB3D800971896 /* TrainRow.swift in Sources */,
+				3858FCCD240E689400F65B94 /* Train.swift in Sources */,
 				38A968D724057D9F00E2E3D2 /* AppDelegate.swift in Sources */,
 				38A968D924057D9F00E2E3D2 /* SceneDelegate.swift in Sources */,
-				38A968DB24057D9F00E2E3D2 /* ContentView.swift in Sources */,
+				38A968DB24057D9F00E2E3D2 /*  OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		38A968EB24057DA200E2E3D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38A968D224057D9F00E2E3D2 /* swiftUI */;
+			target = 38A968D224057D9F00E2E3D2 /* myApp */;
 			targetProxy = 38A968EA24057DA200E2E3D2 /* PBXContainerItemProxy */;
 		};
 		38A968F624057DA200E2E3D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 38A968D224057D9F00E2E3D2 /* swiftUI */;
+			target = 38A968D224057D9F00E2E3D2 /* myApp */;
 			targetProxy = 38A968F524057DA200E2E3D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -442,8 +490,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Airnauts.swiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Airnauts.trainpedia;
+				PRODUCT_NAME = TrainPedia;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,8 +509,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Airnauts.swiftUI;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Airnauts.trainpedia;
+				PRODUCT_NAME = TrainPedia;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -485,7 +533,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftUI.app/swiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myApp.app/myApp";
 			};
 			name = Debug;
 		};
@@ -506,7 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftUI.app/swiftUI";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myApp.app/myApp";
 			};
 			name = Release;
 		};
@@ -551,7 +599,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		38A968CE24057D9F00E2E3D2 /* Build configuration list for PBXProject "swiftUI" */ = {
+		38A968CE24057D9F00E2E3D2 /* Build configuration list for PBXProject "myApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38A968FB24057DA200E2E3D2 /* Debug */,
@@ -560,7 +608,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38A968FD24057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUI" */ = {
+		38A968FD24057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38A968FE24057DA200E2E3D2 /* Debug */,
@@ -569,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38A9690024057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUITests" */ = {
+		38A9690024057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38A9690124057DA200E2E3D2 /* Debug */,
@@ -578,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38A9690324057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "swiftUIUITests" */ = {
+		38A9690324057DA200E2E3D2 /* Build configuration list for PBXNativeTarget "myAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				38A9690424057DA200E2E3D2 /* Debug */,

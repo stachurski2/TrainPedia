@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import swiftUI
+@testable import MyApp
 
 class swiftUITests: XCTestCase {
 
