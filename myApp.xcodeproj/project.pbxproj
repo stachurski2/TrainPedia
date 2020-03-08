@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C2491824142B23000B5CAD /* TrainDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2491724142B23000B5CAD /* TrainDetailsView.swift */; };
+		17C2491A24143F33000B5CAD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C2491924143F33000B5CAD /* UserData.swift */; };
+		17C2491D24151C8C000B5CAD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17C2491F24151C8C000B5CAD /* Localizable.strings */; };
 		3858FCCD240E689400F65B94 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCCC240E689400F65B94 /* Train.swift */; };
 		3858FCCF240E6CB700F65B94 /* TrainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCCE240E6CB700F65B94 /* TrainsView.swift */; };
 		3858FCD1240EA09B00F65B94 /* TrainProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3858FCD0240EA09B00F65B94 /* TrainProvider.swift */; };
@@ -39,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17C2491724142B23000B5CAD /* TrainDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailsView.swift; sourceTree = "<group>"; };
+		17C2491924143F33000B5CAD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		17C2491E24151C8C000B5CAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3858FCCC240E689400F65B94 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 		3858FCCE240E6CB700F65B94 /* TrainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsView.swift; sourceTree = "<group>"; };
 		3858FCD0240EA09B00F65B94 /* TrainProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainProvider.swift; sourceTree = "<group>"; };
@@ -88,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				3858FCCC240E689400F65B94 /* Train.swift */,
+				17C2491924143F33000B5CAD /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +131,7 @@
 				38A968E124057DA200E2E3D2 /* LaunchScreen.storyboard */,
 				38A968E424057DA200E2E3D2 /* Info.plist */,
 				38A968DE24057DA200E2E3D2 /* Preview Content */,
+				17C2491F24151C8C000B5CAD /* Localizable.strings */,
 			);
 			path = swiftUI;
 			sourceTree = "<group>";
@@ -168,6 +176,7 @@
 			children = (
 				3858FCCE240E6CB700F65B94 /* TrainsView.swift */,
 				38C35C85240EB3D800971896 /* TrainRow.swift */,
+				17C2491724142B23000B5CAD /* TrainDetailsView.swift */,
 			);
 			path = Trains;
 			sourceTree = "<group>";
@@ -285,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38A968E324057DA200E2E3D2 /* LaunchScreen.storyboard in Resources */,
+				17C2491D24151C8C000B5CAD /* Localizable.strings in Resources */,
 				38A968E024057DA200E2E3D2 /* Preview Assets.xcassets in Resources */,
 				38A968DD24057DA200E2E3D2 /* Assets.xcassets in Resources */,
 			);
@@ -311,8 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17C2491824142B23000B5CAD /* TrainDetailsView.swift in Sources */,
 				3858FCCF240E6CB700F65B94 /* TrainsView.swift in Sources */,
 				3858FCD1240EA09B00F65B94 /* TrainProvider.swift in Sources */,
+				17C2491A24143F33000B5CAD /* UserData.swift in Sources */,
 				38C35C86240EB3D800971896 /* TrainRow.swift in Sources */,
 				3858FCCD240E689400F65B94 /* Train.swift in Sources */,
 				38A968D724057D9F00E2E3D2 /* AppDelegate.swift in Sources */,
@@ -353,6 +365,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		17C2491F24151C8C000B5CAD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C2491E24151C8C000B5CAD /* en */,
+			);
+			name = Localizable.strings;
+			path = /Users/stanisawsobczyk/Trainpedia/TrainPedia/swiftUI;
+			sourceTree = "<absolute>";
+			usesTabs = 0;
+		};
 		38A968E124057DA200E2E3D2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

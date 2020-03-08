@@ -1,15 +1,19 @@
 import SwiftUI
 
 struct OnboardingView: View {
-
+    
+    @EnvironmentObject var data:UserData
     var body: some View {
         NavigationView {
-            OnboardingInnerView().transformEffect(CGAffineTransform(translationX: 0, y: -40))
-        }.background(Color.yellow)
+            OnboardingInnerView().environmentObject(data).transformEffect(CGAffineTransform(translationX: 0, y: -40))
+        }
     }
 }
 
 struct OnboardingInnerView: View {
+    
+    @EnvironmentObject var data:UserData
+
     @State var isActive = false
     private let kStandardInset: CGFloat = 25.0
 
@@ -21,7 +25,8 @@ struct OnboardingInnerView: View {
                             Text("I am not machine!").padding(EdgeInsets(top: kStandardInset, leading: 0, bottom: 0, trailing: 0))
                             Text("I am more!").padding(EdgeInsets(top: 0, leading: 0, bottom: kStandardInset, trailing: 0))
                             Divider()
-                            NavigationLink(destination: TrainsView(isActive: $isActive, trains: TrainProvider.sharedInstance.trains),
+            NavigationLink(destination: TrainsView(isActive: self.$isActive).environmentObject(self.data),
+                           
                                                isActive: $isActive,
                                                label: {
                                                     Button(action: {
