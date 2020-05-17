@@ -3,9 +3,12 @@ import SwiftUI
 struct OnboardingView: View {
     
     @EnvironmentObject var data:UserData
+    
+    @State var isTrainsViewActive = false
+
     var body: some View {
         NavigationView {
-            OnboardingInnerView()
+            OnboardingInnerView(isTrainsViewActive: self.$isTrainsViewActive)
                 .environmentObject(data)
                 .transformEffect(CGAffineTransform(translationX: 0, y: -40))
         }
@@ -14,9 +17,8 @@ struct OnboardingView: View {
 
 struct OnboardingInnerView: View {
     
-    @EnvironmentObject var data:UserData
-
-    @State var isActive = false
+    @EnvironmentObject var data: UserData
+    @Binding var isTrainsViewActive: Bool
     private let kStandardInset: CGFloat = 25.0
 
     var body: some View {
@@ -37,18 +39,20 @@ struct OnboardingInnerView: View {
                             Text("I am more!")
                                 .padding(EdgeInsets(top: 0, leading: 0, bottom: kStandardInset, trailing: 0))
                             Divider()
-            NavigationLink(destination: TrainsView(isActive: self.$isActive).environmentObject(self.data),
-                           isActive: $isActive,
+            NavigationLink(destination: TrainsView(isTrainsViewActive: self.$isTrainsViewActive)
+                .environmentObject(self.data),
+                           isActive: $isTrainsViewActive,
                            label: {
                                 Button(action: {
-                                    self.isActive = true
+                                    self.isTrainsViewActive = true
                                 }, label: { Text("Proceed")})
                                     .frame(height: 50)
                                     .padding(EdgeInsets(top: 0, leading: kStandardInset, bottom: 0, trailing: kStandardInset))
                                 .background(Color.red)
                                 .foregroundColor(.white)
                                 .cornerRadius(25)
-            }).padding(EdgeInsets(top: kStandardInset, leading: 0, bottom: 0, trailing: 0))
+            })
+            .padding(EdgeInsets(top: kStandardInset, leading: 0, bottom: 0, trailing: 0))
     })
     }
 }
@@ -58,7 +62,13 @@ struct OnboardingInnerView: View {
 //                }
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingInnerView()
+        Image("onboardingImage")
+        .resizable(capInsets: EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0),
+                   resizingMode: .stretch)
+        .aspectRatio(contentMode: .fit)
+        .clipShape(Circle()).padding(.horizontal, 15.0)
+        .rotationEffect(Angle(degrees: 45))
+        .padding(EdgeInsets(top: 0, leading: 0, bottom: 2, trailing: 0))
     }
 }
 

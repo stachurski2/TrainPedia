@@ -2,8 +2,8 @@ import SwiftUI
 
 struct TrainDetailsView: View {
 
+    @State var train: Train
     @EnvironmentObject var userData: UserData
-    var train: Train
 
     var trainIndex: Int {
         userData.trains.firstIndex(where: { $0.id == train.id })!
@@ -12,6 +12,7 @@ struct TrainDetailsView: View {
     var body: some View {
     ScrollView {
         VStack(alignment: .center, spacing: 5.0) {
+                Spacer(minLength: 100)
                 Image(self.train.imageName).resizable().aspectRatio(contentMode: .fit).cornerRadius(50)
                     .frame(minWidth: 0, maxWidth: .infinity)
                     .overlay(
@@ -29,9 +30,9 @@ struct TrainDetailsView: View {
                 Spacer()
 
             Button(action: {
-                self.userData.trains[self.trainIndex].isFavorited.toggle()
+                self.train.isFavorited.toggle()
             }) {
-                if self.userData.trains[self.trainIndex].isFavorited {
+                if self.train.isFavorited {
                     Image(systemName: "star.fill")
                         .foregroundColor(Color.yellow)
                 } else {
@@ -46,5 +47,4 @@ struct TrainDetailsView: View {
             }.transformEffect(CGAffineTransform(translationX: 0, y: -100))
         }
     }
-
 }

@@ -7,97 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "75281EA4-78EF-4F18-BBAE-E1584E684990"
+            uuid = "5D3DDD53-6C1F-4BA4-95E6-5A8FB9746C1C"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "swiftUI/Modules/Trains/TrainsView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "body"
             landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "75281EA4-78EF-4F18-BBAE-E1584E684990 - 4b2c62b86946ec07"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TrainPedia.TrainsView.body.getter : some"
-                  moduleName = "TrainPedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stanisawsobczyk/Trainpedia/TrainPedia/swiftUI/Modules/Trains/TrainsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "9"
-                  endingLineNumber = "9"
-                  offsetFromSymbolStart = "581">
-               </Location>
-               <Location
-                  uuid = "75281EA4-78EF-4F18-BBAE-E1584E684990 - 5ec460582426eba2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TrainPedia.Train&gt;, Swift.Int, Swift.Optional&lt;SwiftUI.NavigationLink&lt;TrainPedia.TrainRow, TrainPedia.TrainDetailsView&gt;&gt;&gt; in TrainPedia.TrainsView.body.getter : some"
-                  moduleName = "TrainPedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stanisawsobczyk/Trainpedia/TrainPedia/swiftUI/Modules/Trains/TrainsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "25">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8AE62C05-30DF-4C04-82F4-AEC6F75FB7DA"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "swiftUI/Modules/Trains/TrainsView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "body"
-            landmarkType = "24">
-            <Locations>
-               <Location
-                  uuid = "8AE62C05-30DF-4C04-82F4-AEC6F75FB7DA - 5ec460582426eba2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TrainPedia.Train&gt;, Swift.Int, Swift.Optional&lt;SwiftUI.NavigationLink&lt;TrainPedia.TrainRow, TrainPedia.TrainDetailsView&gt;&gt;&gt; in TrainPedia.TrainsView.body.getter : some"
-                  moduleName = "TrainPedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stanisawsobczyk/Trainpedia/TrainPedia/swiftUI/Modules/Trains/TrainsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "25">
-               </Location>
-               <Location
-                  uuid = "8AE62C05-30DF-4C04-82F4-AEC6F75FB7DA - fbada1e6c7466b3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (TrainPedia.Train) -&gt; Swift.Optional&lt;SwiftUI.NavigationLink&lt;TrainPedia.TrainRow, TrainPedia.TrainDetailsView&gt;&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;TrainPedia.Train&gt;, Swift.Int, Swift.Optional&lt;SwiftUI.NavigationLink&lt;TrainPedia.TrainRow, TrainPedia.TrainDetailsView&gt;&gt;&gt; in TrainPedia.TrainsView.body.getter : some"
-                  moduleName = "TrainPedia"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stanisawsobczyk/Trainpedia/TrainPedia/swiftUI/Modules/Trains/TrainsView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "452">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

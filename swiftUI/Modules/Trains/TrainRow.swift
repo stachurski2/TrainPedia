@@ -27,3 +27,9 @@ struct TrainRow: View {
 
 
 
+
+struct TrainRow_Previews: PreviewProvider {
+    static var previews: some View {
+        return TrainRow(train:  TrainProvider.sharedInstance.trains.first!)
+    }
+}
